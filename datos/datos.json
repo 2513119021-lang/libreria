@@ -1,0 +1,31 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien Años de Soledad",
+      "autor": "Gabriel Garcia Marquez",
+      "genero": "Realismo Magico",
+      "precio": 299,
+      "descripcion": "Obra maestra de la literatura latinoamericana.",
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "genero": "Novela Clasica",
+      "precio": 350,
+      "descripcion": "Las aventuras del ingenioso hidalgo.",
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "titulo": "El Principito",
+      "autor": "Antoine de Saint-Exupery",
+      "genero": "Fabula",
+      "precio": 199,
+      "descripcion": "Un viaje filosofico y poetico.",
+      "stock": 25
+    }
+  ]
+}

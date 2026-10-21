@@ -1,0 +1,77 @@
+/* Colores que voy a usar */
+:root{
+  --cafe: #4B3A2F;
+  --beige-oscuro: #E7D8C9;
+  --beige-claro: #F5EFE6;
+}
+/* Si cambio el cafe aqui, se cambia en todo. Es mas facil que cambiarlo uno por uno */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--beige-claro);
+  font-family: Arial;
+  margin: 0;
+}
+
+header{
+  background: var(--cafe);
+  color: white;
+  padding: 16px;
+}
+
+h1{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contenedor{
+  padding: 16px;
+}
+
+.card{
+  background: white;
+  border: 1px solid var(--beige-oscuro);
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+/* Le puse border, padding y margin a la tarjeta para que no se pegue todo */
+
+.tag{
+  background: var(--beige-claro);
+  padding: 4px;
+  font-size: 12px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+/* Cuando paso el mouse se subraya */
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.libro{
+  width: 45%;
+  background: white;
+  border: 1px solid #E7D8C9;
+  padding: 10px;
+  margin: 10px;
+}
