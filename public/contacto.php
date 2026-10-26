@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Contacto</title>
+        <link rel="stylesheet" href="assets/css/tokens.css">
         <link rel="stylesheet" href="assets/css/estilos.css">
     </head>
     <body>

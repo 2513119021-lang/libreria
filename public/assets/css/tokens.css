@@ -1,0 +1,58 @@
+:root {
+  /* mis colores - paleta beige aesterik */
+  --paleta-beige-100: #fdf8f0;
+  --paleta-beige-300: #eaddc3;
+  --paleta-cafe-900: #3d2b1f;
+  --paleta-cafe-700: #6f4a2f;
+  --paleta-gris-cafe: #6b5f55;
+  --paleta-blanco: #ffffff;
+  --paleta-rojo-600: #b3261e;
+
+  /* tokens semanticos - asi los pide el profe */
+  --color-primario: var(--paleta-cafe-900);
+  --color-acento: var(--paleta-cafe-700);
+  --color-texto: var(--paleta-cafe-900);
+  --color-texto-suave: var(--paleta-gris-cafe);
+  --color-fondo: var(--paleta-beige-100);
+  --color-superficie: var(--paleta-blanco);
+  --color-sobre-primario: var(--paleta-blanco);
+  --color-borde: var(--paleta-beige-300);
+  --color-borde-fuerte: var(--paleta-gris-cafe);
+  --color-error: var(--paleta-rojo-600);
+
+  /* tipografia */
+  --texto-sm: 0.875rem;
+  --texto-md: 1rem;
+  --texto-lg: 1.25rem;
+  --texto-xl: 1.6rem;
+
+  /* espaciado */
+  --espaciado-base: 8px;
+  --espacio-1: calc(var(--espaciado-base) * 1);
+  --espacio-2: calc(var(--espaciado-base) * 2);
+  --espacio-3: calc(var(--espaciado-base) * 3);
+  --espacio-4: calc(var(--espaciado-base) * 4);
+
+  /* forma */
+  --radio-sm: 8px;
+  --radio-md: 14px;
+
+  /* sombra suavecita */
+  --sombra-1: 0 2px 8px rgba(61, 43, 31, 0.1);
+}
+:root{
+  --paleta-beige-claro: #F5F1E8;
+  --paleta-beige: #E8DCC6;
+  --paleta-cafe: #4B3A2F;
+  --paleta-cafe-oscuro: #2C1E16;
+
+  --color-fondo: var(--paleta-beige-claro);
+  --color-texto: var(--paleta-cafe-oscuro);
+  --color-primario: var(--paleta-cafe);
+  --color-borde: var(--paleta-beige);
+}
+body{
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: Georgia, serif;
+}
